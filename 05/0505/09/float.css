@@ -1,0 +1,31 @@
+div {
+    color: #FFF;
+    text-align: center;
+    line-height: 12rem;
+}
+.box {
+    width: 300px;
+    height: 200px;
+}
+#wrapper {
+    /* background-color: #ECFAFB; */ /*背景色を一時的に消す */
+    margin: 5rem auto;
+    width: 900px;
+}
+#wrapper::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#first {
+    background-color: #4AA6B5;
+    float: left;
+}
+#second {
+    background-color: #D6C481;
+    float: left;
+}
+#third {
+    background-color: #81CBC8;
+    float: left;
+}

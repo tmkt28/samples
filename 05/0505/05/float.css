@@ -1,0 +1,24 @@
+div {
+    color: #FFF;
+    text-align: center;
+    line-height: 12rem;
+}
+#wrapper {
+    background-color: #ECFAFB;
+    margin: 5rem auto;
+    width: 1000px;
+}
+#first {
+    background-color: #4AA6B5;
+    width: 500px;
+    height: 200px;
+    float: right;
+    opacity: 0;
+}
+#second {
+    background-color: #D6C481;
+    width: 500px;
+    height: 200px;
+    float: right;
+    opacity: 0;
+}

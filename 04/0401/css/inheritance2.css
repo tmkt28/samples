@@ -1,0 +1,7 @@
+div{
+    color:blue;
+    border: 1px solid #000;
+}
+p{
+	border:inherit;  /* inheritを設定すると強制的に親要素の値を継承する */	
+}

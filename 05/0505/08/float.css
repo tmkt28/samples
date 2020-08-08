@@ -1,0 +1,29 @@
+div {
+    color: #FFF;
+    text-align: center;
+    line-height: 12rem;
+}
+.box {
+    width: 300px;
+    height: 200px;
+}
+#wrapper {
+    /* background-color: #ECFAFB; */ /*背景色を白色に設定して一時的に消す */
+    margin: 5rem auto;
+    width: 900px;
+}
+#first {
+    background-color: #4AA6B5;
+    float: left;
+}
+#second {
+    background-color: #D6C481;
+    float: left;
+}
+#third {
+    background-color: #81CBC8;
+    /* clear: both; */   /* ここを有効にするとclearを使って回り込みを解除 */
+    float: left;        /* 26-27行目を有効にするとfloatの段落ちが発生する */
+    padding-left: 1px;  /* 26-27行目を有効にするとfloatの段落ちが発生する */
+    box-sizing: border-box; /* 26-27行目を有効にた状態で28行目も有効にすると、floatが段落ちしない */
+}
